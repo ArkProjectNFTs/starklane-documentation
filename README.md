@@ -70,7 +70,7 @@ used when receiving a message from L1
         - `contract_type`
 
 ### Flow:
-![BRIDGE_L1_FROM_L2.jpg]()
+![1](https://user-images.githubusercontent.com/243668/234301639-e9b24a42-470e-43d2-9989-244ba95e4ad9.png)
 
 ---
 
@@ -102,8 +102,7 @@ function that will trigger the consume message, used when receiving a message fr
         - `contract_type`
 
 ### Flow:
-
-![RETURN_L1_FROM_L2.jpg]()
+![2](https://user-images.githubusercontent.com/243668/234301749-13a0a12d-c349-48b7-9ceb-51536be1847a.png)
 
 ---
 
@@ -119,7 +118,7 @@ Moving a native L2 NFT to Layer 1 for the first time.
 
 ### Flow:
 
-![BRIDGE_L2_TO_L1.jpg]()
+![3](https://user-images.githubusercontent.com/243668/234301818-c4a2725b-055c-433e-82fd-5837995d8b3d.png)
 
 ### Main Functions
 
@@ -170,8 +169,7 @@ function that will trigger the consume message, used when receiving a message fr
         - `l2_function_selector`
 
 ### Flow
-
-![RETURN_L2_FROM_L1.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9cddba33-b2ea-4b3c-a7de-1833b0b05bae/RETURN_L2_FROM_L1.jpg)
+![4](https://user-images.githubusercontent.com/243668/234301963-a627741d-d860-4412-a8a7-07ae74a4b1c0.png)
 
 ---
 
