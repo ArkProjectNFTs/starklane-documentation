@@ -70,8 +70,7 @@ used when receiving a message from L1
         - `contract_type`
 
 ### Flow:
-![1](https://user-images.githubusercontent.com/243668/234543253-d6c2405d-6fdd-4100-b418-6678d9eb1e4a.png)
-
+![1](https://user-images.githubusercontent.com/243668/234598307-d53bc439-a469-434e-9c94-303a08ea3244.png)
 
 ---
 
@@ -103,7 +102,7 @@ function that will trigger the consume message, used when receiving a message fr
         - `contract_type`
 
 ### Flow:
-![2](https://user-images.githubusercontent.com/243668/234543311-fdd4d9a7-0e75-4595-8c95-a663cbbd8e9d.png)
+![2](https://user-images.githubusercontent.com/243668/234598378-14dc76b2-ddee-48be-9822-4a500ca6e418.png)
 
 ---
 
@@ -116,9 +115,6 @@ Moving a native L2 NFT to Layer 1 for the first time.
 3. Later, the recipient User on L1 can access and consume the message using a `retrieveL2Token()` that will mint or transfer the token on L1.
 4. If the matching contract doesn’t exist when retrieving the token the `retrieveL2Token()` will deploy the smart contract on L1. The deployed contract implements the `permissionedMint` function and gives the L1 bridge contract the authority to mint a new token.
 5. If the the token doesn’t exist on the L1 token contract, the L1 bridge contract mint a new token corresponding to the L1 token
-
-### Flow:
-![3](https://user-images.githubusercontent.com/243668/234543391-1a652c54-ea0a-49ac-b505-be229a7352a3.png)
 
 ### Main Functions
 
@@ -137,6 +133,9 @@ function that will trigger the consume message, used when receiving a message fr
         - `l2_contract_address`
         - `token_id`
         - `l2_function_selector`
+
+### Flow:
+![3](https://user-images.githubusercontent.com/243668/234598498-3bcbc8e7-e98e-4504-9cb3-5fe5cb29c93a.png)
 
 ---
 
@@ -169,7 +168,7 @@ function that will trigger the consume message, used when receiving a message fr
         - `l2_function_selector`
 
 ### Flow
-![4](https://user-images.githubusercontent.com/243668/234543438-bb04b30f-eb20-46f3-89c9-5bebedcea7d9.png)
+![4](https://user-images.githubusercontent.com/243668/234598596-1b1eb31a-6a78-46e4-9906-b532b79d9d14.png)
 
 ---
 
