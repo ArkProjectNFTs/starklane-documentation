@@ -70,7 +70,8 @@ used when receiving a message from L1
         - `contract_type`
 
 ### Flow:
-![1](https://user-images.githubusercontent.com/243668/234301639-e9b24a42-470e-43d2-9989-244ba95e4ad9.png)
+![1](https://user-images.githubusercontent.com/243668/234543253-d6c2405d-6fdd-4100-b418-6678d9eb1e4a.png)
+
 
 ---
 
@@ -102,7 +103,7 @@ function that will trigger the consume message, used when receiving a message fr
         - `contract_type`
 
 ### Flow:
-![2](https://user-images.githubusercontent.com/243668/234301749-13a0a12d-c349-48b7-9ceb-51536be1847a.png)
+![2](https://user-images.githubusercontent.com/243668/234543311-fdd4d9a7-0e75-4595-8c95-a663cbbd8e9d.png)
 
 ---
 
@@ -117,8 +118,7 @@ Moving a native L2 NFT to Layer 1 for the first time.
 5. If the the token doesn’t exist on the L1 token contract, the L1 bridge contract mint a new token corresponding to the L1 token
 
 ### Flow:
-
-![3](https://user-images.githubusercontent.com/243668/234301818-c4a2725b-055c-433e-82fd-5837995d8b3d.png)
+![3](https://user-images.githubusercontent.com/243668/234543391-1a652c54-ea0a-49ac-b505-be229a7352a3.png)
 
 ### Main Functions
 
@@ -169,7 +169,7 @@ function that will trigger the consume message, used when receiving a message fr
         - `l2_function_selector`
 
 ### Flow
-![4](https://user-images.githubusercontent.com/243668/234301963-a627741d-d860-4412-a8a7-07ae74a4b1c0.png)
+![4](https://user-images.githubusercontent.com/243668/234543438-bb04b30f-eb20-46f3-89c9-5bebedcea7d9.png)
 
 ---
 
